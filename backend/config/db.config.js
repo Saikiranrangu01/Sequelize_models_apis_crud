@@ -1,9 +1,12 @@
 const { Sequelize } = require("sequelize");
+const dotenv = require("dotenv");
+dotenv.config();
+const password = process.env.DB_PASSWORD;
 
 const dbConfig = {
   host: "127.0.0.1",
   user: "root",
-  password: "S@ikiran9959",
+  password: password,
   database: "formtable",
   dialect: "mysql",
   pool: {

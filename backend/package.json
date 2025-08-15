@@ -21,6 +21,7 @@
     "mysql2": "^3.14.3",
     "path": "^0.12.7",
     "sequelize": "^6.37.7",
+    "tape": "^5.9.0",
     "url": "^0.11.4"
   },
   "devDependencies": {
