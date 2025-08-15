@@ -1,0 +1,49 @@
+.user-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 18px;
+  margin: 8px 0 4px 0;
+}
+
+.user-email {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.user-date {
+  font-size: 12px;
+  color: gray;
+}
+
