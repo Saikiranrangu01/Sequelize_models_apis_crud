@@ -1,9 +1,8 @@
 # Form Capture App
-A full-stack application that captures form submissions from the frontend and stores them in a MySQL database using Sequelize ORM and REST APIs, added  CRUD operations logic with queryparameters.
+A backend application that captures form submissions from the frontend and stores them in a MySQL database using Sequelize ORM and REST APIs, added  CRUD operations logic with queryparameters.
 
 
 # Features
-- Simple frontend to capture user data
 - REST API built with Node.js and Express.js
 - Sequelize ORM for database operations
 - MySQL as the database
